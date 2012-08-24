@@ -1,0 +1,20 @@
+{
+    "name": "stylus-spriting",
+    "preferGlobal": "true",
+    "version": "0.0.1",
+    "author": "Bruno Germano <bruno@egermano.com>",
+    "description": "Sprite generator with stylus",
+    "main" : "./bin/stylus-spriting",
+    "bin": {
+        "http-server": "./bin/stylus-spriting"
+      },
+    "keywords": [
+        "stylus",
+        "sprite",
+        "generator"
+    ],
+    "dependencies": {
+        "gm" : "*"
+    },
+    "license": "MIT"
+}
