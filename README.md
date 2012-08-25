@@ -3,7 +3,7 @@ stylus-spriting
 
 Sprite generator with stylus
 
-  *Usage*: stylus-spriting stylus-spriting path/to/images/*.png [options]
+  *Usage*: ```stylus-spriting stylus-spriting path/to/images/*.png [options]```
 
   *Options*:
 
