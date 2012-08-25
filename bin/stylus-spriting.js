@@ -6,6 +6,7 @@ var program = require('commander'),
 
 program
 	.version('0.0.1')
+	.usage('stylus-spriting path/to/images/*.png [options]')
 	.option('--image <file>', 'Name for output image.')
 	.option('--stylus <file>', 'Name for output stylus.')
 	.option('--class-prefix <string>', 'Class prefix for stylus.')
