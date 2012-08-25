@@ -8,11 +8,11 @@ Instalation
 
 This tool isn't a final version or a released version, so it is not available in ```npm``` repository. But, to use you must install the dependencies.
 
-The ```Gm library``` is the only dependence that can't be installed with a ```npm```.
+The ```GM Library``` is the only dependence that can't be installed with a ```npm```.
 
 ### GM (Graphics Magick)
 
-Installing a ```GM library```.
+Installing a ```GM Library```.
 
 _MAC OSX_
 
