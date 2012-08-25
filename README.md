@@ -10,21 +10,40 @@ This tool isn't a final version or a released version, so isn't avaliable in ```
 
 The only dependence i cannot install with a npm is the GM ```C``` library.
 
-### Dependencies
-
-**GM (Graphics Magick)**
+### GM (Graphics Magick)
 
 _MAC OSX_
 
 To install i used a (homebrew)[http://mxcl.github.com/homebrew/] tool. For more install instruction go to (GM Site)[http://www.graphicsmagick.org/].
 
-	brew update
-	brew install graphicsmagick
+	$ brew update
+	$ brew install graphicsmagick
+
+_Linux_
+
+ASAP..
+
+_Windows_
+
+ASAP...
+
+### Installing stylus-spriting
+
+	$ git clone git://github.com/thepirates/stylus-spriting.git
+	$ cd stylus-spriting
+	$ npm install
+
+Usage
+-----
+
+To use you need do like that:
+
+	$ node bin/stylus-spriting --help
 
 
-  *Usage*: ```stylus-spriting stylus-spriting path/to/images/*.png [options]```
+*Usage*: ```stylus-spriting stylus-spriting path/to/images/*.png [options]```
 
-  *Options*:
+*Options*:
 
     -h, --help               output usage information
     -V, --version            output the version number
