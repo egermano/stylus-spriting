@@ -6,11 +6,13 @@ Sprite generator with stylus
 Instalation
 -----------
 
-This tool isn't a final version or a released version, so isn't avaliable in ```npm``` repo. But, to use you must install the dependencies.
+This tool isn't a final version or a released version, so it is not available in ```npm``` repository. But, to use you must install the dependencies.
 
-The only dependence i cannot install with a npm is the GM ```C``` library.
+The ```Gm library``` is the only dependence that can't be installed with a ```npm```.
 
 ### GM (Graphics Magick)
+
+Installing a ```GM library```.
 
 _MAC OSX_
 
