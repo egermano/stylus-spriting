@@ -14,7 +14,7 @@ The only dependence i cannot install with a npm is the GM ```C``` library.
 
 _MAC OSX_
 
-To install i used a (homebrew)[http://mxcl.github.com/homebrew/] tool. For more install instruction go to (GM Site)[http://www.graphicsmagick.org/].
+To install i used a [homebrew](http://mxcl.github.com/homebrew/) tool. For more install instruction go to [GM Site](http://www.graphicsmagick.org/).
 
 	$ brew update
 	$ brew install graphicsmagick
