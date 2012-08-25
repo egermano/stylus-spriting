@@ -16,18 +16,10 @@ Installing a ```GM Library```.
 
 _MAC OSX_
 
-To install I used a [homebrew](http://mxcl.github.com/homebrew/) tool. For more install instruction go to [GM Site](http://www.graphicsmagick.org/).
+To install I used a [homebrew](http://mxcl.github.com/homebrew/) tool. For more instruction of installation go to [GM Site](http://www.graphicsmagick.org/).
 
 	$ brew update
 	$ brew install graphicsmagick
-
-_Linux_
-
-ASAP..
-
-_Windows_
-
-ASAP...
 
 ### Installing stylus-spriting
 
