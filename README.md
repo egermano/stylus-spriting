@@ -12,7 +12,7 @@ The only dependence i cannot install with a npm is the GM ```C``` library.
 
 ### Dependencies
 
-*GM (Graphics Magick)*
+**GM (Graphics Magick)**
 
 _MAC OSX_
 
