@@ -7,7 +7,11 @@
     "main" : "./bin/stylus-spriting",
     "bin": {
         "http-server": "./bin/stylus-spriting.js"
-      },
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/thepirates/stylus-spriting.git"
+    },
     "keywords": [
         "stylus",
         "sprite",
