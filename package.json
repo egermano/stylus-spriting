@@ -6,7 +6,7 @@
     "description": "Sprite generator with stylus",
     "main" : "./bin/stylus-spriting",
     "bin": {
-        "http-server": "./bin/stylus-spriting"
+        "http-server": "./bin/stylus-spriting.js"
       },
     "keywords": [
         "stylus",
@@ -14,6 +14,7 @@
         "generator"
     ],
     "dependencies": {
+        "commander" : "*",
         "gm" : "*"
     },
     "license": "MIT"
