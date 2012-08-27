@@ -6,7 +6,10 @@
     "description": "Sprite generator with stylus",
     "main" : "./bin/stylus-spriting",
     "bin": {
-        "http-server": "./bin/stylus-spriting.js"
+        "stylus-spriting": "./bin/stylus-spriting.js"
+    },
+    "scripts": {
+        "start": "node ./bin/stylus-spriting.js"
     },
     "repository": {
         "type": "git",
