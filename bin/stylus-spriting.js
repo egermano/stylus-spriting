@@ -5,7 +5,7 @@ var program = require('commander'),
 	sprite = require('../lib/sprite').sprite;
 
 program
-	.version('0.0.1')
+	.version('0.0.2')
 	.usage('path/to/images/*.png [options]')
 	.option('--image <file>', 'Name for output image.')
 	.option('--stylus <file>', 'Name for output stylus.')
