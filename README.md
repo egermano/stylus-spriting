@@ -6,7 +6,9 @@ Sprite generator with stylus
 Instalation
 -----------
 
-This tool isn't a final version or a released version, so it is not available in ```npm``` repository. But, to use you must install the dependencies.
+	npm install stylus-spriting -g
+
+To use you must install the dependencies.
 
 The ```GM Library``` is the only dependence that can't be installed with a ```npm```.
 
