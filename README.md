@@ -23,21 +23,15 @@ To install I used a [homebrew](http://mxcl.github.com/homebrew/) tool. For more 
 	$ brew update
 	$ brew install graphicsmagick
 
-### Installing stylus-spriting
-
-	$ git clone git://github.com/thepirates/stylus-spriting.git
-	$ cd stylus-spriting
-	$ npm install
-
 Usage
 -----
 
 To use you need do like that:
 
-	$ node bin/stylus-spriting --help
+	$ stylus-spriting --help
 
 
-*Usage*: ```stylus-spriting stylus-spriting path/to/images/*.png [options]```
+*Usage*: ```stylus-spriting path/to/images/*.png [options]```
 
 *Options*:
 
