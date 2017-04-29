@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-var program = require('commander'),
-    args = process.argv.slice(2),
-    sprite = require('../lib/sprite').sprite;
+var program = require('commander');
+var args = process.argv.slice(2);
+var sprite = require('../lib/sprite').sprite;
 
 program
     .version('0.0.5')
@@ -15,21 +15,21 @@ program
 program
     .command('*')
     .action(function(){
-        var images = Array.prototype.slice.call(arguments, 0);
-        images.pop();
-        
-        var imgOutput = program.image?program.image:"sprite.png",
-            stylusOutput = program.stylus?program.stylus:"sprite.styl",
-            debug = program.debug?program.debug==='true'?true:false:false,
-            classPrefix = program.classPrefix?program.classPrefix:'sprite-';
+    var images = Array.prototype.slice.call(arguments, 0);
+    images.pop();
 
-        if(debug)
-            console.log('[stylus-spriting] - Start process in Debugger mode.');
-        else
-            console.log('[stylus-spriting] - Start process.');
+    var imgOutput = program.image?program.image:"sprite.png";
+    var stylusOutput = program.stylus?program.stylus:"sprite.styl";
+    var debug = program.debug?program.debug==='true'?true:false:false;
+    var classPrefix = program.classPrefix?program.classPrefix:'sprite-';
 
-        new sprite(images, imgOutput, stylusOutput, classPrefix, debug).process();
-    });
+    if(debug)
+        console.log('[stylus-spriting] - Start process in Debugger mode.');
+    else
+        console.log('[stylus-spriting] - Start process.');
+
+    new sprite(images, imgOutput, stylusOutput, classPrefix, debug).process();
+});
 
 
 program.parse(process.argv);
